@@ -36,7 +36,7 @@ boolean isSliced = false;
 	 
 	@Override
 	public void prepare() {
-        PineappleView= new ImageView("file:pineapple.PNG");
+        PineappleView= new ImageView("file:images/pineapple.PNG");
         PineappleView.setFitWidth(100);
         PineappleView.setFitHeight(100);
 	    Button Pinapple= new Button();
@@ -82,7 +82,7 @@ game.setFruitRecived("pineapple");
 			        root.getChildren().add(mediaView);
 	               transition.pause();
 					
-	               PinappleSlicedView = new ImageView("file:pineapplecut.PNG");
+	               PinappleSlicedView = new ImageView("file:images/pineapplecut.PNG");
 	               PinappleSlicedView.setFitWidth(200);
 	               PinappleSlicedView.setFitHeight(200);
 					

@@ -34,7 +34,7 @@ boolean isSliced=false;
 	 
 	@Override
 	public void prepare() {
-			PomegranateView= new ImageView("file:pomegranate.PNG");
+			PomegranateView= new ImageView("file:images/pomegranate.PNG");
 			PomegranateView.setFitWidth(100);
 			PomegranateView.setFitHeight(100);
 			Pomegranate= new Button();
@@ -79,7 +79,7 @@ boolean isSliced=false;
 				        MediaView mediaView = new MediaView(mediaPlayer);
 				        root.getChildren().add(mediaView);
 						transition.pause();
-						pomeSlicedView = new ImageView("file:pomegranatecut.PNG");
+						pomeSlicedView = new ImageView("file:images/pomegranatecut.PNG");
 						pomeSlicedView.setFitWidth(300);
 						pomeSlicedView.setFitHeight(300);
 						Pomegranate.setGraphic(pomeSlicedView);

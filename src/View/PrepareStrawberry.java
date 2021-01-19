@@ -33,7 +33,7 @@ public class PrepareStrawberry implements Preparation {
 
 	@Override
 	public void prepare() {
-		StrawberryView = new ImageView("file:Strawberry.PNG");
+		StrawberryView = new ImageView("file:images/Strawberry.PNG");
 		StrawberryView.setFitWidth(100);
 		StrawberryView.setFitHeight(100);
 		Button Strawberry = new Button();
@@ -78,7 +78,7 @@ public class PrepareStrawberry implements Preparation {
 				MediaView mediaView = new MediaView(mediaPlayer);
 				root.getChildren().add(mediaView);
 				transition.pause();
-				StrawberrySlicedView = new ImageView("file:strawberrycut.PNG");
+				StrawberrySlicedView = new ImageView("file:images/strawberrycut.PNG");
 				StrawberrySlicedView.setFitWidth(200);
 				StrawberrySlicedView.setFitHeight(200);
 				Strawberry.setGraphic(StrawberrySlicedView);

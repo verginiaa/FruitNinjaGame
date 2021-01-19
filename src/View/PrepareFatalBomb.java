@@ -37,7 +37,7 @@ public class PrepareFatalBomb implements Preparation{
 	 
 	@Override
 	public void prepare() {
-		FatalView= new ImageView("file:fatal bomb.PNG");
+		FatalView= new ImageView("file:images/fatal bomb.PNG");
 		FatalView.setFitWidth(100);
 		FatalView.setFitHeight(100);
 		Button fatalBomb= new Button();
@@ -83,7 +83,7 @@ public class PrepareFatalBomb implements Preparation{
 			        root.getChildren().add(mediaView);
 	               transition.pause();
 					
-	               FatalSlicedView = new ImageView("file:bombcut.PNG");
+	               FatalSlicedView = new ImageView("file:images/bombcut.PNG");
 	               FatalSlicedView.setFitWidth(200);
 	               FatalSlicedView.setFitHeight(200);
 					

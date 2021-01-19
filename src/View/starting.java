@@ -22,16 +22,16 @@ public class starting {
 public void PrepareScene() {
 	  Group root = new Group();
 	  Canvas canvas = new Canvas();
-	    ImageView background = new ImageView("file:background-scene---image.PNG");
+	    ImageView background = new ImageView("file:images/background-scene---image.PNG");
 	    background.setFitHeight(800);
 	    background.setFitWidth(1400);
-	    ImageView LogoView = new ImageView("file:FruitNinja_logo.PNG");
+	    ImageView LogoView = new ImageView("file:images/FruitNinja_logo.PNG");
 	    LogoView.setLayoutX(400);
 	    LogoView.setLayoutY(50);
 	    LogoView.setFitHeight(300);
 	    LogoView.setFitWidth(500);
 	    Button level1b = new Button();
-	    ImageView choice1 = new ImageView("file:level1.png");
+	    ImageView choice1 = new ImageView("file:images/level1.png");
 	    level1b.setGraphic(choice1);
 	    level1b.setStyle("-fx-background-color: transparent;");
 	    choice1.setFitWidth(100);
@@ -40,7 +40,7 @@ public void PrepareScene() {
 	    level1b.setLayoutY(250*2);
 	    
 	    Button level2b = new Button();
-	    ImageView choice2 = new ImageView("file:level2.png");
+	    ImageView choice2 = new ImageView("file:images/level2.png");
 	    level2b.setGraphic(choice2);
 	    level2b.setStyle("-fx-background-color: transparent;");
 	    choice2.setFitWidth(100);
@@ -49,7 +49,7 @@ public void PrepareScene() {
 	    level2b.setLayoutY(250*2);
 	    
 	    Button level3b = new Button();
-	    ImageView choice3 = new ImageView("file:level3.png");
+	    ImageView choice3 = new ImageView("file:images/level3.png");
 	    level3b.setGraphic(choice3);
 	    level3b.setStyle("-fx-background-color: transparent;");
 	    choice3.setFitWidth(100);

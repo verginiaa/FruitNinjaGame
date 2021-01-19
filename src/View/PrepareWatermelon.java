@@ -45,7 +45,7 @@ boolean isSliced = false;
 
 
 	public void prepare() {		
-		WatermelonView= new ImageView("file:watermelon.PNG");
+		WatermelonView= new ImageView("file:images/watermelon.PNG");
 		WatermelonView.setFitWidth(100);
 		WatermelonView.setFitHeight(100);
 		Button Watermelon= new Button();
@@ -89,7 +89,7 @@ isSliced=true;
 			        mediaPlayer.setAutoPlay(true);
 			        MediaView mediaView = new MediaView(mediaPlayer);
 			        root.getChildren().add(mediaView);					
-					WatermelonSlicedView = new ImageView("file:watermeloncut.PNG");
+					WatermelonSlicedView = new ImageView("file:images/watermeloncut.PNG");
 					WatermelonSlicedView.setFitWidth(100);
 					WatermelonSlicedView.setFitHeight(100);
 					

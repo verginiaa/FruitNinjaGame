@@ -35,7 +35,7 @@ public class PrepareBananaX2 implements Preparation{
 	 
 	@Override
 	public void prepare() {
-		BananaX2View= new ImageView("file:Score_2x_Banana.PNG");
+		BananaX2View= new ImageView("file:images/Score_2x_Banana.PNG");
 		BananaX2View.setFitWidth(100);
 		BananaX2View.setFitHeight(100);
         Button BananaX2= new Button();
@@ -80,7 +80,7 @@ public class PrepareBananaX2 implements Preparation{
 			        root.getChildren().add(mediaView);
 	               transition.pause();
 					
-	               BananaX2SlicedView = new ImageView("file:20+_burned.PNG");
+	               BananaX2SlicedView = new ImageView("file:images/20+_burned.PNG");
 	               BananaX2SlicedView.setFitWidth(200);
 	               BananaX2SlicedView.setFitHeight(200);
 					

@@ -60,7 +60,7 @@ public class Lives {
 	}
 
 	public void GameOver() {
-		ImageView txt = new ImageView("file:txt.png");
+		ImageView txt = new ImageView("file:images/txt.png");
 		txt.setLayoutX(200);
 		txt.setLayoutY(100);
 		root.getChildren().add(txt);

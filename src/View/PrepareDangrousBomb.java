@@ -38,7 +38,7 @@ this.Scene1=scene1;
 
 	@Override
 	public void prepare() {
-		DangerousView= new ImageView("file:bomb.PNG");
+		DangerousView= new ImageView("file:images/bomb.PNG");
 		DangerousView.setFitWidth(100);
 		DangerousView.setFitHeight(100);
 		 Button DangerBomb= new Button();
@@ -76,7 +76,7 @@ DangerBomb.setDisable(true);
 				        root.getChildren().add(mediaView);
 	               transition.pause();
 					obj.CheckLives();
-					bombSlicedView = new ImageView("file:bombcut.PNG");
+					bombSlicedView = new ImageView("file:images/bombcut.PNG");
 					bombSlicedView.setFitWidth(300);
 					bombSlicedView.setFitHeight(300);
 					

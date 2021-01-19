@@ -37,7 +37,7 @@ public class PrepareDragonFruit implements Preparation {
 	 
 	@Override
 	public void prepare() {
-		DragonFruitView= new ImageView("file:Dragonfruit.PNG");
+		DragonFruitView= new ImageView("file:images/Dragonfruit.PNG");
    		DragonFruitView.setFitWidth(100);
    		DragonFruitView.setFitHeight(100);
            Button DragonFruit= new Button();
@@ -83,7 +83,7 @@ public class PrepareDragonFruit implements Preparation {
    			        root.getChildren().add(mediaView);
    	               transition.pause();
    	
-   	               DragonSlicedView = new ImageView("file:50+_burned.PNG");
+   	               DragonSlicedView = new ImageView("file:images/50+_burned.PNG");
    	               DragonSlicedView.setFitWidth(200);
    	               DragonSlicedView.setFitHeight(200);
    					

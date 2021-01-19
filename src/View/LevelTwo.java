@@ -36,7 +36,7 @@ public class LevelTwo implements Observer {
 	}
 
 	public void ShowInstructions() {
-		ImageView instructionView = new ImageView("file:instructions_burned.PNG");
+		ImageView instructionView = new ImageView("file:images/instructions_burned.PNG");
 		instructionView.setLayoutX(450);
 		instructionView.setLayoutY(200);
 		instructionView.setFitWidth(470);
@@ -44,7 +44,7 @@ public class LevelTwo implements Observer {
 		info.setLayoutX(480);
 		info.setLayoutY(450);
 		info.setFont(Font.font(Font.getFontNames().get(0), FontWeight.EXTRA_BOLD, 22));
-		ImageView exitView = new ImageView("file:exitLabel-removebg.png");
+		ImageView exitView = new ImageView("file:images/exitLabel-removebg.png");
 		Button exitButton = new Button();
 		exitButton.setGraphic(exitView);
 		exitButton.setLayoutX(490);
@@ -78,7 +78,7 @@ public class LevelTwo implements Observer {
 
 	public void prepareReset() {
 
-		ImageView exitView = new ImageView("file:RESET.png");
+		ImageView exitView = new ImageView("file:images/RESET.png");
 		Button exitButton = new Button();
 		exitButton.setGraphic(exitView);
 		exitButton.setLayoutX(800);
@@ -101,7 +101,7 @@ public class LevelTwo implements Observer {
 	}
 
 	public void ShowScore() {
-		ImageView board = new ImageView("file:score board.PNG");
+		ImageView board = new ImageView("file:images/score board.PNG");
 		board.setFitWidth(200);
 		board.setFitHeight(200);
 		board.setLayoutX(200);
@@ -117,7 +117,7 @@ public class LevelTwo implements Observer {
 	}
 
 	public void PrepareLevelTwo() {
-		ImageView background = new ImageView("file:background-scene---image.PNG");
+		ImageView background = new ImageView("file:images/background-scene---image.PNG");
 		background.setFitHeight(800);
 		background.setFitWidth(1400);
 		root.getChildren().add(background);
@@ -171,15 +171,15 @@ public class LevelTwo implements Observer {
 
 		)));
 		timeline.setCycleCount(Animation.INDEFINITE);
-		ImageView life1 = new ImageView("file:lives.png");
+		ImageView life1 = new ImageView("file:images/lives.png");
 		life1.setFitWidth(60);
 		life1.setFitHeight(60);
 		life1.setLayoutX(1300);
-		ImageView life2 = new ImageView("file:lives.png");
+		ImageView life2 = new ImageView("file:images/lives.png");
 		life2.setFitWidth(60);
 		life2.setFitHeight(60);
 		life2.setLayoutX(1300 - 50);
-		ImageView life3 = new ImageView("file:lives.png");
+		ImageView life3 = new ImageView("file:images/lives.png");
 		life3.setFitWidth(60);
 		life3.setFitHeight(60);
 		life3.setLayoutX(1300 - 50 - 50);
